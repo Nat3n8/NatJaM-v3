@@ -109,7 +109,7 @@ h2 {
     display: flex;
     align-self: center;
     border-radius: 50px;
-    width: 200px;
+    width: 400px;
     box-shadow: 0px 0px 20px 1px #1DCD9F;
     background-image: radial-gradient(#1DCD9F, #222222);
     transition: all 0.5s;
@@ -481,6 +481,16 @@ h2 {
         box-shadow: 0px 0px 5px 1px #22222234;
         transition: all 0.5s;
     }
+
+    #portrait:hover {
+        display: flex;
+        align-self: center;
+        border-radius: 50px;
+        width: 300px;
+        box-shadow: 0px 0px 20px 1px #1DCD9F;
+        background-image: radial-gradient(#1DCD9F, #222222);
+        transition: all 0.5s;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -504,6 +514,16 @@ h2 {
         border-radius: 50px;
         width: 250px;
         box-shadow: 0px 0px 5px 1px #22222234;
+        transition: all 0.5s;
+    }
+
+    #portrait:hover {
+        display: flex;
+        align-self: center;
+        border-radius: 50px;
+        width: 250px;
+        box-shadow: 0px 0px 20px 1px #1DCD9F;
+        background-image: radial-gradient(#1DCD9F, #222222);
         transition: all 0.5s;
     }
 
